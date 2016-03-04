@@ -11,15 +11,15 @@ public class Apple {
 		return weight;
 	}
 
+	public int getWeight(int i) {
+		return weight + i;
+	}
+
 	public static int getWeight1(Apple a) {
 		return a.getWeight();
 	}
 
-	public int getWeightA(Apple w) {
-		return weight;
-	}
-
-	public int getWeightB(Apple w) {
+	public int getWeight2(Apple w) {
 		return w.getWeight();
 	}
 }
